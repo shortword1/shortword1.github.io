@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+        <div class="container-fluid">
+          <button 
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+                <a class="nav-link" href="index.html">Home</a> 
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <h1 class="text-center">
+              Contact Me<br />
+              --------------------
+            </h1>
+            <div id="Contact">
+              <form
+                action="mailto:zackkinsman@gmail.com"
+                method="post"
+                enctype="text/plain"
+              >
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" /><br />
+                <label for="email">Email:</label><br />
+                <input type="text" id="email" name="email" /><br />
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="10" cols="75"></textarea
+                ><br />
+                <input type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <footer>
+      <div class="container">
+        <p>
+          <br><br><br>© 2023 Zack Kinsman-Muise<br />
+          NSCC IT Programming<br />
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
